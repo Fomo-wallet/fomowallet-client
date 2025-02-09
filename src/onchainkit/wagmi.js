@@ -43,14 +43,14 @@ export function useWagmiConfig() {
 
     const wagmiConfig = createConfig({
       chains: [
-        mantleSepoliaTestnet,
+        baseSepolia,
       ],
       // turn off injected provider discovery
       multiInjectedProviderDiscovery: false,
       connectors,
       ssr: true,
       transports: {
-        [mantleSepoliaTestnet.id]: http(),
+        [baseSepolia.id]: http(),
       },
     });
 

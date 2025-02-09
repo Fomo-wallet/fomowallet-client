@@ -51,7 +51,7 @@ const PlayGame = ({ chainid, betid, contractAddress }) => {
 
     try {
       const amountInUSDC = parseUnits(betAmount.toString(), 18);
-
+      console.log(betid, amountInUSDC, twitter, email)
       const hash = await writeContractAsync({
         address: contractAddress,
         abi: betABI,

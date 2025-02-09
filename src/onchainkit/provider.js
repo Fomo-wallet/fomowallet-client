@@ -17,7 +17,7 @@ function OnchainProviders({ children }) {
       <QueryClientProvider client={queryClient}>
         <OnchainKitProvider
           apiKey={NEXT_PUBLIC_CDP_API_KEY}
-          chain={polygonAmoy}
+          chain={baseSepolia}
         >
           {/* <OnchainKitProvider apiKey={NEXT_PUBLIC_CDP_API_KEY} chain={polygonAmoy}> */}
           <RainbowKitProvider modalSize="compact">

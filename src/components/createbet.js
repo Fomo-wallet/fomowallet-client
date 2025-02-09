@@ -72,7 +72,7 @@ const CreateBetSheet = () => {
       await writeContractAsync({
         address: usdcContractAddress,
         abi: usdcContractABI,
-        functionName: "mintAndApprove",
+      functionName: "mintAndApprove",
         args: [betAddress],
       });
     } catch (error) {

@@ -1,6 +1,6 @@
-export const betAddress = "0x8Ee9cE6002cc654c59AE7eA36Cf25226bb8cD73C";
+export const betAddress = "0x85d9535897057EF2222Df55241586684DFaA0646";
 
-export const usdcContractAddress = "0xe8D926e2B3bDb668CeFf6773564441C4029F9Da6";
+export const usdcContractAddress = "0xe3c85c1ebedc01D669aB2A3fe2f32f02bbEb21Df";
 
 export const betABI = [
   {
